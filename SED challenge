@@ -1,0 +1,19 @@
+import sys
+import collections
+
+x='4234-5678-9104-12345'
+
+if not x[0]=='4' and not x[0]=='5' and not x[0]=='6'
+sys.exit(1)
+
+if len(x.split('-'))!=1 and len (x.split('-'))!=4:
+sys.exit(1)
+
+if not x.replace('-',").isdigit() or len(x.replace('-',"))!=16:
+sys.exit(1)
+
+y=collections.Counter(x)
+
+for i in y:
+if y[i]>4:
+sys.exit(1)
